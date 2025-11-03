@@ -1,0 +1,1 @@
+<template>\n  <div class=\"min-h-screen bg-gray-100\">\n    <RecipeSearch />\n  </div>\n</template>\n\n<script setup>\nimport RecipeSearch from './components/RecipeSearch.vue';\n// Root component\n</script>
