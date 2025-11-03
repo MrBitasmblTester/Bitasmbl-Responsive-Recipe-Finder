@@ -1,0 +1,1 @@
+<template>\n  <div class=\"bg-white rounded shadow p-4\">\n    <img :src=\"recipe.image\" alt=\"\" class=\"w-full h-32 object-cover rounded\" />\n    <h2 class=\"mt-2 font-bold\">{{ recipe.title }}</h2>\n    <!-- Ingredients & steps here -->\n  </div>\n</template>\n\n<script setup>\ndefineProps({recipe: Object});\n</script>
